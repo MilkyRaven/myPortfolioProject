@@ -147,6 +147,8 @@ img {
 }
 .project-card {
     margin: 10px;
+    display: flex;
+    flex-flow: column nowrap;
 }
 .project-bts {
     display: flex;
