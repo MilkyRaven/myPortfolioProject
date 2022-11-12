@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <title>Milky Kiwi Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="/resources/img/favicon_io/android-chrome-512x512.png">
 </head>
 <body>
     <header>
@@ -15,9 +16,9 @@
         </div>
         <nav>
             <ul class="menu-bar">
-                <li><a href="#my-projects"></a> <p>my projects</p></li>
-                <li><a href="#about-me"></a> <p>about me</p></li>
-                <li><a href="#contact"></a> <p>contact</p></li>
+                <li><a class="links" href="#my-projects"><p>my projects</p></a></li>
+                <li><a href="#about-me"><p>about me</p></a></li>
+                <li><a href="#contact"><p>contact</p></a></li>
             </ul>
         </nav>
     </header>
@@ -26,12 +27,12 @@
             <div class="milky-image">
                 <img class="my-pic" width="290px" src="/resources/img/profile.png" alt="milky's profile pic">
             </div> 
-            <p>Bringing joy to your business through my code and designs. Helping you to bring your vision to life. Shall we start? 🙌🏼</p>
+            <p>Helping you to bring your vision to life through my code and designs. Shall we start? 🙌🏼</p>
         </section>  
     <!-- NEW SECTION "ABOUT ME" -->
     <div class="milky-intro">
-        <h3>So... who is Milky? </h3>
-        <p>With a background in literature, art and social sciences, Milky decided to take a 360º turn and land into the tech world. What fuels Milky's rocket?</p>
+        <h3 id="about-me">So... who is Milky? </h3>
+        <p>With a background in literature, art and social sciences, Milky decided to turn 180 degrees and land into the tech world. What fuels Milky's rocket?</p>
         <h4>Learning</h4>
         <img src="/resources/img/learn.png" width="300px" alt="">
         <p>I am in love with learning (the story of how I became such a big reader).</p>
@@ -54,7 +55,7 @@
     </div>
     <!--My Projects -->
     <div class="milky-intro">
-        <h3>Milky's Projects</h3>
+        <h3 id="my-projects"> Milky's Projects</h3>
         <video class="video" autoplay muted loop src="/resources/img/video/gameSample.mp4"></video>
         <div class="project-card">
             <h4>Damn Candy!</h4>
@@ -88,7 +89,7 @@
     </div>
     <!--Contact-->
     <div class="milky-intro">
-        <h3>Contact Milky</h3>
+        <h3 id="contact">Contact Milky</h3>
     </div>
     
     <!--Footer-->
