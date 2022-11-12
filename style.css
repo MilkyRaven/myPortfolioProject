@@ -12,13 +12,33 @@
     padding: 0;
     font-family: 'Rubik';
 }
+nav {
+    margin: 10px;
+    position: sticky;
+}
 header {
     display: flex;
-    margin-top: 55px;
+    margin-top: 20px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+h3, h4{
+    text-align: center;
+    padding: 10px;
+}
+h5 {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5em;
+    color:#7f7e7d;
 }
 header .logo {
     font-size: 1em;
     color: #252E04;
+}
+header .logo h1 {
+    text-align: center;
 }
 header #kiwi {
     color: #9CC069;
@@ -28,9 +48,8 @@ header #kiwi {
     list-style: none;
     display: flex;
 }
-.menu-bar li a {
-    margin-inline: 30px;
-    float:inline-end;
+.menu-bar li {
+    padding-left: 20px;
 }
 .menu-bar li:hover{
     opacity: 0.6;
@@ -40,13 +59,20 @@ header #kiwi {
 }
 .milky-intro {
     font-size: 3em;
-    margin: 50px;
+    margin: 10px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
 .milky-intro article {
     width: 400px;
     padding: 30px;
+}
+.milky-intro h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
 }
 .milky-intro h2 span {
     color: #9CC069;
@@ -54,49 +80,21 @@ header #kiwi {
 .milky-intro p {
     font-family: 'Inconsolata';
     font-size: 0.5em;
-    text-align: left;
-}
-.square {
-    height: 450px;
-    width: 400px;
-    border-bottom-left-radius: 40%;
-    background: linear-gradient(300deg, #9CC069, white);
-    position: relative;
-    top: 0;
-    left: 0;
-}
-.milky-image {
-    position: relative;
-    top: 0;
-    left: 0;
-    padding: 30px;
-}
-.my-pic{
-    position: absolute;
-    top: -15px;
-    left: 60px;
-    border-bottom-left-radius: 40%;
-    width: 400px;
-    height: 450px;
-    z-index: 1;
-}
-.circle {
-    height: 80px;
-    width: 80px;
-    background-color: #FFAA95;
-    border-radius: 50%;
-    font-family: 'Inconsolata';
+    padding: 10px;
+    margin: 20px;
     text-align: center;
 }
+
 /* My Projects */
 .my-projects {
     margin-top: 50px;
 }
 .project-display {
     display: flex;
+    flex-flow: row wrap;
 }
 .pro-img-one, .pro-img-two, .pro-img-three {
-    width: 350px;
+    width: 300px;
     height: 450px;
     flex-wrap: wrap;
 }
@@ -134,11 +132,38 @@ footer {
     text-align: center;
 }
 footer h4 {
-    padding: 30px;
     color: white;
 }
 footer i{
     font-size: 70px;
     color: white;
     padding: 30px;
+}
+.video {
+    width: 300px;
+}
+img {
+    overflow: hidden;
+}
+.project-card {
+    margin: 10px;
+}
+.project-bts {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    margin: 20px;
+}
+button {
+    width: 150px;
+    height: 80px;
+    padding: 10px;
+    font-size: 0.5em;
+    font-family: 'Inconsolata';
+    border-radius: 10px;
+    border: 4px solid #9CC069;
+    background-color: white;
+}
+.line-break-img {
+    width: 330px;
 }
