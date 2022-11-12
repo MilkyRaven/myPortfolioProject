@@ -21,10 +21,13 @@ nav {
 }
 header {
     display: flex;
-    margin-top: 20px;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color:#9CC069;
+    color: white;
 }
 h3, h4{
     text-align: center;
@@ -44,7 +47,7 @@ header .logo h1 {
     text-align: center;
 }
 header #kiwi {
-    color: #9CC069;
+    color: white;
 }
 .menu-bar{
     font-size: 1.2em;
@@ -143,4 +146,7 @@ button {
 }
 .line-break-img {
     width: 330px;
+}
+.highlight {
+    color: #9CC069;
 }
